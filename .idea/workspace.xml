@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e40c0b62-012e-4421-98f7-5a918f76a3af" name="Default Changelist" comment="" />
+    <list default="true" id="e40c0b62-012e-4421-98f7-5a918f76a3af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-consumer/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-consumer/target/classes/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-consumer/target/classes/com/stbst/sp/eureka/client/consumer/controller/ConsumerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-consumer/target/classes/com/stbst/sp/eureka/client/consumer/remote/HelloRemote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-producer/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-producer/target/classes/com/stbst/sp/eureka/client/producer/EurekaClientProducerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-producer/target/classes/com/stbst/sp/eureka/client/producer/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-producer/target/eureka-client-producer-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-producer/target/eureka-client-producer-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-producer/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-producer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-producer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-producer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/META-INF/eureka-server.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/application-peer1.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/application-peer2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/com/stbst/sp/eureka/server/EurekaServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/demo1/target/" />
@@ -57,7 +83,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eureka-client-consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="276">
               <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
             </state>
           </provider>
@@ -117,6 +143,9 @@
       <find>index</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -165,6 +194,15 @@
           <item name="eureka-client-producer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-F.SR4" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-F.SR4" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -173,6 +211,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -198,6 +237,11 @@
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -213,6 +257,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-client-consumer/src/main/resources" />
@@ -316,12 +361,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571392456545</updated>
-      <workItem from="1571392468295" duration="21207000" />
+      <workItem from="1571392468295" duration="22224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21207000" />
+    <option name="totallyTimeSpent" value="22224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -339,7 +384,7 @@
       <window_info anchor="bottom" id="Thumbnails" weight="0.32891566" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.39156628" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.42891565" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Run with VisualVM" />
       <window_info anchor="bottom" id="Java Enterprise" />
@@ -609,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="276">
           <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
         </state>
       </provider>
