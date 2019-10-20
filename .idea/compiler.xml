@@ -10,6 +10,7 @@
         <module name="eureka-server" />
         <module name="demo1" />
         <module name="eureka-client-consumer" />
+        <module name="eureka-client-consumer-hystrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="demo" options="-parameters" />
       <module name="demo1" options="-parameters" />
       <module name="eureka-client-consumer" options="-parameters" />
+      <module name="eureka-client-consumer-hystrix" options="-parameters" />
       <module name="eureka-client-producer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
