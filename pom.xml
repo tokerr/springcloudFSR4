@@ -22,6 +22,7 @@
     <spring-cloud.version>Finchley.SR4</spring-cloud.version>
     <netflix.version>2.0.4.RELEASE</netflix.version>
     <openfeign.version>2.0.4.RELEASE</openfeign.version>
+    <spring.cloud.config.version>2.0.5.RELEASE</spring.cloud.config.version>
   </properties>
 
   <modules>
@@ -30,6 +31,8 @@
     <module>eureka-client-producer</module>
       <module>eureka-client-consumer</module>
     <module>eureka-client-consumer-hystrix</module>
+      <module>eureka-client-consumer-hystrix-dashboard-turbine</module>
+    <module>sp-config-server</module>
   </modules>
 
   <dependencies>

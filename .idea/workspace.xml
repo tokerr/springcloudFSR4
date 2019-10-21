@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e40c0b62-012e-4421-98f7-5a918f76a3af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sp-config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-config-server/src/main/java/com/stbst/sp/config/server/SpConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-config-server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-config-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-consumer-hystrix/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-consumer-hystrix/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,6 +22,7 @@
     <ignored path="$PROJECT_DIR$/eureka-client-consumer-hystrix/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/sp-config-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,49 +38,7 @@
         <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix/src/main/java/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerHystrixApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard/src/main/java/com/stbst/sp/eureka/client/consumer/controller/ConsumerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard/src/main/java/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerHystrixDashboardApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -85,34 +47,77 @@
         <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-turbine/2.0.4.RELEASE/spring-cloud-netflix-turbine-2.0.4.RELEASE.jar!/org/springframework/cloud/netflix/turbine/TurbineProperties.class">
+        <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/src/main/java/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerHystrixDashboardTurbineApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#1407#1408#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
-                <element signature="e#1597#1598#0" expanded="true" />
-                <element signature="e#1651#1652#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/src/main/java/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerHystrixDashboardTurbineApplication.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="235">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp-config-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp-config-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sp-config-server/src/main/resources/application-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp-config-server/src/main/java/com/stbst/sp/config/server/SpConfigServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -122,15 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -156,8 +152,8 @@
       <find>/actuator/hystrix.stream</find>
       <find>Mapped</find>
       <find>stream</find>
-      <find>/turbine.stream</find>
       <find>turbine</find>
+      <find>/turbine.stream</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -193,7 +189,6 @@
         <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix/src/main/java/com/stbst/sp/eureka/client/consumer/remote/HelloRemote.java" />
         <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix/src/main/java/com/stbst/sp/eureka/client/consumer/remote/HelloRemoteHystrix.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard/src/main/java/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerHystrixApplication.java" />
         <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard/src/main/java/com/stbst/sp/eureka/client/consumer/remote/HelloRemoteHystrix.java" />
         <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard/src/main/java/com/stbst/sp/eureka/client/consumer/remote/HelloRemote.java" />
@@ -207,6 +202,11 @@
         <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/src/main/java/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerHystrixDashboardTurbineApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-config-server/src/main/java/com/stbst/sp/config/server/SpConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/sp-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sp-config-server/src/main/resources/application-dev.properties" />
       </list>
     </option>
   </component>
@@ -265,47 +265,25 @@
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -313,123 +291,50 @@
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-config-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix-dashboard-turbine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix-dashboard-turbine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix-dashboard-turbine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix-dashboard-turbine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix-dashboard-turbine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer-hystrix-dashboard-turbine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
@@ -469,7 +374,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-client-consumer/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sp-config-server/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -479,6 +384,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sp-config-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/eureka-client-consumer/src/main/resources" />
       <recent name="$PROJECT_DIR$/eureka-client-producer/src/main/resources" />
       <recent name="$PROJECT_DIR$/eureka-server/src/main/resources" />
@@ -575,6 +481,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stbst.sp.config.server.SpConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.Demo1Application" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -584,6 +497,7 @@
       <item itemvalue="Spring Boot.EurekaClientProducerApplication" />
       <item itemvalue="Spring Boot.EurekaClientConsumerHystrixApplication" />
       <item itemvalue="Spring Boot.EurekaClientConsumerHystrixDashboardTurbineApplication" />
+      <item itemvalue="Spring Boot.SpConfigServerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -606,19 +520,19 @@
       <workItem from="1571575156470" duration="337000" />
       <workItem from="1571575548197" duration="456000" />
       <workItem from="1571576013302" duration="321000" />
-      <workItem from="1571576348455" duration="6468000" />
+      <workItem from="1571576348455" duration="10866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38399000" />
+    <option name="totallyTimeSpent" value="42797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7655039" visible="true" weight="0.28397712" />
-      <window_info id="Structure" order="1" sideWeight="0.23449612" side_tool="true" visible="true" weight="0.28397712" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85314685" visible="true" weight="0.28397712" />
+      <window_info id="Structure" order="1" sideWeight="0.14685315" side_tool="true" visible="true" weight="0.28397712" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -635,7 +549,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.6280401" weight="0.39638555" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.6280401" visible="true" weight="0.31084338" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.37195995" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Run with VisualVM" order="12" />
@@ -646,14 +560,14 @@
       <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="18" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="19" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="20" visible="true" weight="0.37831324" />
+      <window_info anchor="bottom" id="Run Dashboard" order="20" weight="0.37831324" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.22317597" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.22317597" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -663,41 +577,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.3.RELEASE/spring-cloud-netflix-eureka-client-2.1.3.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="411" column="16" selection-start-line="411" selection-start-column="16" selection-end-line="411" selection-end-column="16" />
-          <folding>
-            <element signature="e#13957#13958#0" expanded="true" />
-            <element signature="e#14001#14002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo1/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo1/src/main/java/com/nyt/sp/demo1/Demo1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/demo/src/main/java/com/example/demo/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -718,13 +597,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/stbst/sp/eureka/server/controlle/HelloController.java" />
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -880,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1005,7 +870,7 @@
     <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1013,13 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1033,17 +891,75 @@
     <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/src/main/java/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerHystrixDashboardTurbineApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer-hystrix/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.0.5.RELEASE/spring-cloud-config-server-2.0.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-config-server/src/main/java/com/stbst/sp/config/server/SpConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-config-server/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1098,7 +1014,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>eureka-client-consumer-hystrix-dashboard-turbine</last-edited>
+          <last-edited>sp-config-server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
