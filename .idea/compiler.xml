@@ -12,6 +12,7 @@
         <module name="sp-config-client" />
         <module name="eureka-client-consumer-hystrix-dashboard" />
         <module name="eureka-client-consumer-hystrix" />
+        <module name="sp-config-client-refresh" />
         <module name="eureka-client-consumer-hystrix-dashboard-turbine" />
         <module name="demo1" />
         <module name="eureka-client-producer" />
@@ -34,6 +35,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="sp-config-client" options="-parameters" />
+      <module name="sp-config-client-refresh" options="-parameters" />
       <module name="sp-config-server" options="-parameters" />
       <module name="springcloudFSR4" options="-parameters" />
     </option>
