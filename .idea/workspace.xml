@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e40c0b62-012e-4421-98f7-5a918f76a3af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sp-zuul-filter/src/main/java/com/stbst/sp/zuul/filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/src/main/java/com/stbst/sp/zipkin/ZipkinServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,6 +31,9 @@
     <ignored path="$PROJECT_DIR$/sp-config-client-eureka-bus/target/" />
     <ignored path="$PROJECT_DIR$/sp-zuul/target/" />
     <ignored path="$PROJECT_DIR$/sp-zuul-filter/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-client-producer/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-client-sp-zuul/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,96 +46,96 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp-zuul/pom.xml">
+        <entry file="file://$PROJECT_DIR$/zipkin-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="261">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp-zuul-filter/pom.xml">
+        <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/java/com/stbst/sp/zipkin/ZipkinServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp-zuul-filter/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="30">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zipkin-client-producer/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zipkin-client-producer/src/main/java/com/stbst/sp/eureka/client/producer/ZipkinClientProducerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sp-zuul-filter/src/main/java/com/stbst/sp/zuul/SpZuulFilterApplication.java">
+        <entry file="file://$PROJECT_DIR$/zipkin-client-sp-zuul/src/main/java/com/stbst/sp/zuul/ZipkinClientZuulApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp-zuul-filter/src/main/java/com/stbst/sp/zuul/filter/MyFilter.java">
+        <entry file="file://$PROJECT_DIR$/zipkin-client-sp-zuul/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-207">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilter.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            <state relative-caret-position="235">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp-zuul/src/main/java/com/stbst/sp/zuul/SpZuulApplication.java">
+        <entry file="file://$PROJECT_DIR$/zipkin-client-sp-zuul/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp-zuul/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/zipkin-client-producer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="47" selection-start-column="25" selection-end-column="47" />
+            <state relative-caret-position="366">
+              <caret line="28" column="21" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -174,16 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard/src/main/java/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerHystrixDashboardApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/src/main/java/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerHystrixDashboardApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix/src/main/java/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerHystrixApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/src/main/java/com/stbst/sp/eureka/client/consumer/EurekaClientConsumerHystrixDashboardTurbineApplication.java" />
-        <option value="$PROJECT_DIR$/sp-config-server/src/main/java/com/stbst/sp/config/server/SpConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/sp-config-server/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/sp-config-server/src/main/resources/neo-config-dev.properties" />
         <option value="$PROJECT_DIR$/sp-config-server/src/main/resources/neo-config-ga.properties" />
         <option value="$PROJECT_DIR$/sp-config-server/src/main/resources/neo-config-st.properties" />
         <option value="$PROJECT_DIR$/sp-config-server/pom.xml" />
@@ -210,7 +206,6 @@
         <option value="$PROJECT_DIR$/sp-config-client-eureka/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/sp-config-client-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/sp-config-server-eureka-bus/src/main/java/com/stbst/sp/config/server/SpConfigServerEurekaBusApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sp-config-client-eureka-bus/src/main/java/com/stbst/sp/config/client/SpConfigClientEurekaBusApplication.java" />
         <option value="$PROJECT_DIR$/sp-config-client-eureka-bus/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/sp-config-client-eureka-bus/pom.xml" />
@@ -225,6 +220,17 @@
         <option value="$PROJECT_DIR$/sp-zuul-filter/src/main/java/com/stbst/sp/zuul/SpZuulFilterApplication.java" />
         <option value="$PROJECT_DIR$/sp-zuul-filter/src/main/java/com/stbst/sp/zuul/filter/MyFilter.java" />
         <option value="$PROJECT_DIR$/sp-zuul-filter/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/java/com/stbst/sp/zipkin/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-client-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-client-sp-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-client-sp-zuul/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zipkin-client-producer/src/main/java/com/stbst/sp/eureka/client/producer/EurekaClientProducerApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-client-producer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zipkin-client-producer/src/main/java/com/stbst/sp/eureka/client/producer/ZipkinClientProducerApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-client-sp-zuul/src/main/java/com/stbst/sp/zuul/ZipkinClientZuulApplication.java" />
       </list>
     </option>
   </component>
@@ -274,30 +280,25 @@
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-producer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-zuul-filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-zuul-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-zuul-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-zuul-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -305,7 +306,50 @@
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-zuul-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-sp-zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-sp-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-sp-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-sp-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-sp-zuul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -314,17 +358,50 @@
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-zuul-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-client-sp-zuul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-zuul-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudFSR4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudFSR4" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -405,7 +482,7 @@
     </option>
     <option name="contentProportion" value="0.2788321" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpZuulFilterApplication">
+  <component name="RunManager" selected="Spring Boot.ZipkinClientZuulApplication">
     <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nyt.sp.demo1.Demo1Application" />
@@ -423,6 +500,13 @@
     <configuration name="EurekaClientConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.stbst.sp.eureka.client.consumer.EurekaClientConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientConsumerHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client-consumer-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stbst.sp.eureka.client.consumer.EurekaClientConsumerHystrixApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -466,19 +550,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="sp-config-client-refresh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stbst.sp.config.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stbst.sp.config.client.SpConfigClientApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpConfigClientEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="sp-config-client-eureka" />
       <extension name="coverage">
@@ -501,19 +572,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.stbst.sp.config.client.SpConfigClientEurekaBusApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpConfigClientRefreshApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="sp-config-client-refresh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stbst.sp.config.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stbst.sp.config.client.SpConfigClientRefreshApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -559,6 +617,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZipkinClientProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zipkin-client-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stbst.sp.eureka.client.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stbst.sp.eureka.client.producer.ZipkinClientProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinClientZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zipkin-client-sp-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stbst.sp.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stbst.sp.zuul.ZipkinClientZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stbst.sp.zipkin.ZipkinServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.Demo1Application" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -568,8 +659,6 @@
       <item itemvalue="Spring Boot.EurekaClientConsumerHystrixDashboardTurbineApplication" />
       <item itemvalue="Spring Boot.SpConfigServerApplication" />
       <item itemvalue="Spring Boot.SpConfigClientApplication" />
-      <item itemvalue="Spring Boot.SpConfigClientApplication (1)" />
-      <item itemvalue="Spring Boot.SpConfigClientRefreshApplication" />
       <item itemvalue="Spring Boot.SpConfigServerEurekaApplication" />
       <item itemvalue="Spring Boot.SpConfigClientEurekaApplication" />
       <item itemvalue="Spring Boot.SpConfigServerEurekaBusApplication" />
@@ -577,14 +666,18 @@
       <item itemvalue="Spring Boot.EurekaClientProducerApplication" />
       <item itemvalue="Spring Boot.SpZuulApplication" />
       <item itemvalue="Spring Boot.SpZuulFilterApplication" />
+      <item itemvalue="Spring Boot.EurekaClientConsumerHystrixApplication" />
+      <item itemvalue="Spring Boot.ZipkinServerApplication" />
+      <item itemvalue="Spring Boot.ZipkinClientProducerApplication" />
+      <item itemvalue="Spring Boot.ZipkinClientZuulApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ZipkinClientZuulApplication" />
+        <item itemvalue="Spring Boot.ZipkinClientProducerApplication" />
         <item itemvalue="Spring Boot.SpZuulFilterApplication" />
         <item itemvalue="Spring Boot.SpConfigClientEurekaBusApplication" />
         <item itemvalue="Spring Boot.SpConfigClientEurekaApplication" />
-        <item itemvalue="Spring Boot.SpConfigClientRefreshApplication" />
-        <item itemvalue="Spring Boot.SpConfigClientApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -602,19 +695,18 @@
       <workItem from="1571575156470" duration="337000" />
       <workItem from="1571575548197" duration="456000" />
       <workItem from="1571576013302" duration="321000" />
-      <workItem from="1571576348455" duration="44376000" />
+      <workItem from="1571576348455" duration="47189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76307000" />
+    <option name="totallyTimeSpent" value="79120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.70742357" visible="true" weight="0.2725322" />
-      <window_info id="Structure" order="1" sideWeight="0.29257643" side_tool="true" visible="true" weight="0.2725322" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8209607" visible="true" weight="0.32546496" />
+      <window_info id="Structure" order="1" sideWeight="0.1790393" side_tool="true" visible="true" weight="0.32546496" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -631,7 +723,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.6280401" weight="0.33493975" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.6280401" weight="0.35903615" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.37195995" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Run with VisualVM" order="12" />
@@ -659,49 +751,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../config-repo/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../config-repo/neo-config-ga.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../config-repo/neo-config-st.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/neo-config-dev.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/neo-config-ga.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/neo-config-st.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-config-client-refresh/sp-config-client.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-config-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-config-client-refresh/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sp-config-client-refresh/src/main/java/com/stbst/sp/config/client/SpConfigClientRefreshApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -894,13 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/stbst/sp/eureka/client/producer/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -982,10 +1024,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sp-zuul-filter/src/main/java/com/stbst/sp/zuul/SpZuulFilterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sp-zuul-filter/src/main/java/com/stbst/sp/zuul/filter/MyFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
@@ -1000,15 +1049,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sp-zuul-filter/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="45">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp-zuul-filter/src/main/java/com/stbst/sp/zuul/SpZuulFilterApplication.java">
+    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/java/com/stbst/sp/zipkin/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-client-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="28" column="21" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-client-sp-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-client-sp-zuul/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-client-producer/src/main/java/com/stbst/sp/eureka/client/producer/ZipkinClientProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-client-producer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-client-sp-zuul/src/main/java/com/stbst/sp/zuul/ZipkinClientZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1063,7 +1180,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sp-zuul-filter</last-edited>
+          <last-edited>zipkin-client-sp-zuul</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

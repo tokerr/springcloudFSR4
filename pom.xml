@@ -24,6 +24,7 @@
     <openfeign.version>2.0.4.RELEASE</openfeign.version>
     <spring.cloud.config.version>2.0.5.RELEASE</spring.cloud.config.version>
     <spring.cloud.bus.version>2.0.2.RELEASE</spring.cloud.bus.version>
+    <zipkin.version>2.0.4.RELEASE</zipkin.version>
   </properties>
 
   <modules>
@@ -39,6 +40,9 @@
     <module>sp-config-server-eureka</module>
     <module>sp-config-server-eureka-bus</module>
     <module>sp-zuul</module>
+    <module>zipkin-server</module>
+    <module>zipkin-client-producer</module>
+    <module>zipkin-client-sp-zuul</module>
   </modules>
 
   <dependencies>

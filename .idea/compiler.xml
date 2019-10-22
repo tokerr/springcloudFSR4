@@ -13,11 +13,14 @@
         <module name="sp-config-server" />
         <module name="eureka-client-consumer-hystrix-dashboard" />
         <module name="sp-config-client-eureka-bus" />
+        <module name="zipkin-client-sp-zuul" />
         <module name="demo1" />
         <module name="sp-config-client-refresh" />
         <module name="sp-zuul-filter" />
         <module name="sp-zuul" />
+        <module name="zipkin-server" />
         <module name="eureka-server" />
+        <module name="zipkin-client-producer" />
         <module name="sp-config-server-eureka" />
         <module name="eureka-client-producer" />
         <module name="sp-config-client" />
@@ -50,6 +53,9 @@
       <module name="sp-zuul" options="-parameters" />
       <module name="sp-zuul-filter" options="-parameters" />
       <module name="springcloudFSR4" options="-parameters" />
+      <module name="zipkin-client-producer" options="-parameters" />
+      <module name="zipkin-client-sp-zuul" options="-parameters" />
+      <module name="zipkin-server" options="-parameters" />
     </option>
   </component>
 </project>

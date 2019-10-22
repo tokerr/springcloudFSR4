@@ -15,6 +15,8 @@
         <option value="$PROJECT_DIR$/sp-config-server-eureka-bus/pom.xml" />
         <option value="$PROJECT_DIR$/sp-config-client-eureka-bus/pom.xml" />
         <option value="$PROJECT_DIR$/sp-zuul-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-client-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-client-sp-zuul/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
