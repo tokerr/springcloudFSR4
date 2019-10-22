@@ -6,18 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sp-config-server" />
-        <module name="sp-config-server-eureka" />
-        <module name="sp-config-client" />
-        <module name="eureka-server" />
-        <module name="eureka-client-consumer-hystrix-dashboard" />
-        <module name="eureka-client-consumer" />
-        <module name="eureka-client-consumer-hystrix" />
         <module name="sp-config-client-eureka" />
-        <module name="sp-config-client-refresh" />
         <module name="eureka-client-consumer-hystrix-dashboard-turbine" />
+        <module name="eureka-client-consumer-hystrix" />
+        <module name="sp-config-server-eureka-bus" />
+        <module name="sp-config-server" />
+        <module name="eureka-client-consumer-hystrix-dashboard" />
+        <module name="sp-config-client-eureka-bus" />
         <module name="demo1" />
+        <module name="sp-config-client-refresh" />
+        <module name="eureka-server" />
+        <module name="sp-config-server-eureka" />
         <module name="eureka-client-producer" />
+        <module name="sp-config-client" />
+        <module name="eureka-client-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,9 +40,11 @@
       <module name="eurekaserver" options="-parameters" />
       <module name="sp-config-client" options="-parameters" />
       <module name="sp-config-client-eureka" options="-parameters" />
+      <module name="sp-config-client-eureka-bus" options="-parameters" />
       <module name="sp-config-client-refresh" options="-parameters" />
       <module name="sp-config-server" options="-parameters" />
       <module name="sp-config-server-eureka" options="-parameters" />
+      <module name="sp-config-server-eureka-bus" options="-parameters" />
       <module name="springcloudFSR4" options="-parameters" />
     </option>
   </component>

@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/sp-config-client-refresh/pom.xml" />
         <option value="$PROJECT_DIR$/sp-config-server-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/sp-config-client-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-config-server-eureka-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-config-client-eureka-bus/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
