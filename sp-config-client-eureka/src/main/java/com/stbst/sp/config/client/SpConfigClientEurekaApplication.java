@@ -3,10 +3,12 @@ package com.stbst.sp.config.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-public class SpConfigClientApplication {
+@EnableDiscoveryClient
+public class SpConfigClientEurekaApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpConfigClientApplication.class,args);
+        SpringApplication.run(SpConfigClientEurekaApplication.class,args);
     }
 }

@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client-consumer-hystrix-dashboard-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/sp-config-client-refresh/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-config-server-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-config-client-eureka/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

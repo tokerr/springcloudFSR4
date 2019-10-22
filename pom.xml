@@ -34,6 +34,8 @@
       <module>eureka-client-consumer-hystrix-dashboard-turbine</module>
     <module>sp-config-server</module>
     <module>sp-config-client</module>
+      <module>sp-config-client-eureka</module>
+    <module>sp-config-server-eureka</module>
   </modules>
 
   <dependencies>
