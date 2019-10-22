@@ -18,7 +18,6 @@
         <module name="sp-config-client-refresh" />
         <module name="sp-zuul-filter" />
         <module name="sp-zuul" />
-        <module name="zipkin-server" />
         <module name="eureka-server" />
         <module name="zipkin-client-producer" />
         <module name="sp-config-server-eureka" />
@@ -30,6 +29,7 @@
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="eurekaserver" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

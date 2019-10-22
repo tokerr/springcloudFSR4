@@ -40,7 +40,6 @@
     <module>sp-config-server-eureka</module>
     <module>sp-config-server-eureka-bus</module>
     <module>sp-zuul</module>
-    <module>zipkin-server</module>
     <module>zipkin-client-producer</module>
     <module>zipkin-client-sp-zuul</module>
   </modules>
