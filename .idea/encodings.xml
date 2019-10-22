@@ -17,6 +17,7 @@
     <file url="file://$PROJECT_DIR$/sp-config-server-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-config-server-eureka-bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-zuul-filter" charset="UTF-8" />
     <file url="file://$USER_HOME$/Downloads/demo" charset="UTF-8" />
   </component>
 </project>
