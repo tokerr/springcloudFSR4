@@ -38,6 +38,7 @@
       <module>sp-config-client-eureka</module>
     <module>sp-config-server-eureka</module>
     <module>sp-config-server-eureka-bus</module>
+    <module>sp-zuul</module>
   </modules>
 
   <dependencies>

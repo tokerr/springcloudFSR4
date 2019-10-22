@@ -15,6 +15,7 @@
         <module name="sp-config-client-eureka-bus" />
         <module name="demo1" />
         <module name="sp-config-client-refresh" />
+        <module name="sp-zuul" />
         <module name="eureka-server" />
         <module name="sp-config-server-eureka" />
         <module name="eureka-client-producer" />
@@ -45,6 +46,7 @@
       <module name="sp-config-server" options="-parameters" />
       <module name="sp-config-server-eureka" options="-parameters" />
       <module name="sp-config-server-eureka-bus" options="-parameters" />
+      <module name="sp-zuul" options="-parameters" />
       <module name="springcloudFSR4" options="-parameters" />
     </option>
   </component>
